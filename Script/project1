@@ -1,6 +1,98 @@
-
-
 #! /bin/bash
 
-echo "Hello World"
+shopt -s expand_aliases
 
+addPath ()
+{
+
+echo "[ -d /Script ] && PATH="/Script:$PATH"" >> ~/.profile
+
+#if [ -d /Script ]
+#then
+#	echo "export PATH = $PATH:/Script" >> ~/.profile
+#fi
+
+}
+
+
+vimCust () {
+echo ":set nu">> ~/.vimrc
+echo ":set cursorline">> ~/.vimrc
+echo ":set ruler">> ~/.vimrc
+
+echo "Customized Vim "
+echo "set number, set cursor line, set ruler"
+
+}
+
+
+
+
+changeMotd () {
+
+sudo sh -c 'echo "Have A Good Day Homie" > /etc/motd'
+echo "motd changed to, Have A Good Day Homie"
+}
+
+alias_func () {
+
+echo "3 different alias is created"
+echo "aws-ssh = ssh -i ceg-key.pem ubuntu@52.202.247.148"
+echo "qotd = fortune "
+echo "train = sl " 
+
+echo 'alias aws-ssh="ssh -i ceg-key.pem ubuntu@52.202.247.148"'>> ~/.bashrc
+echo 'alias qotd="fortune"'>> ~/.bashrc
+echo 'alias train="sl"'>> ~/.bashrc
+}
+
+
+while [[ $menu_choice != [6] ]]
+do
+
+echo "MENU CHOICES"
+echo "1. Add to PATH"
+echo "2. Change motd"
+echo "3. Making vim more me"
+echo "4. Making Alias my comrad"
+echo "5. Refresh .bashrc and Exit"
+echo "6. EXIT"
+echo "-help"
+echo "ENTER AN INT OR TYPE -help"
+read menu_choice
+echo "$menu_choice"
+
+if [ $menu_choice == 1 ]
+then
+	addPath
+elif [ $menu_choice == 2 ]
+then    
+    	changeMotd	
+elif [ $menu_choice == 3 ]
+then
+        vimCust
+elif [ $menu_choice == 4 ]
+then
+	alias_func
+elif [ $menu_choice == 5 ]
+then
+	echo "refreshing"
+	exec bash
+#	echo source ~/.bashrc
+elif [ $menu_choice == 6 ]
+then
+        exit
+elif [ $menu_choice == '-help' ]
+then
+	echo "THIS IS HELP"
+	echo "This script satisfies the project 1 requirements"
+	echo "By typing the various integers associated with the menu"
+	echo "the following operation will be performed"
+	echo "if anything was to throw an error, it very well may be that You need to sudo apt  install something. I.E. possibly the train command with alias "
+	echo "May have to source /.profile "
+	echo "give me A Plez :D "
+else
+        echo "Not an Option"
+fi
+done
+exec bash
