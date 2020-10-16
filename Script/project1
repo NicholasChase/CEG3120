@@ -78,7 +78,7 @@ elif [ $menu_choice == 5 ]
 then
 	echo "refreshing"
 	exec bash
-#	echo source ~/.bashrc
+	echo source ~/.bashrc
 elif [ $menu_choice == 6 ]
 then
         exit
