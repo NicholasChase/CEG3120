@@ -49,5 +49,6 @@
   <li>Git Cheat Sheet: https://education.github.com/git-cheat-sheet-education.pdf</li>
   <li>Git Issue Manual: https://cli.github.com/manual/gh_issue_create</li>
   <li>Git Issue Resolve Definition: https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/resolving-a-merge-conflict-on-github</li>
+  <li>Steps on resolving issue: https://www.youtube.com/watch?v=JtIX3HJKwfo</li>
 </ul>
 </p>
