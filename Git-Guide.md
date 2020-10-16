@@ -28,7 +28,8 @@
   -p, --project name     Add the issue to projects by name<br>
   -t, --title string     Supply a title. Will prompt for one otherwise.<br>
   -w, --web              Open the browser to create an issue<br></p>
-
+<h4>How to close an issue in GitHub</h4>
+<p>After creating an issue and fixing the issue, you will want to close the issue. You can do this by going into the issue tab, select the issue fixed, write a message saying you fixed it, and then hitting close issue.</p>
 <h4>Resolve Issues</h4>
 <p>You can only resolve merge conflicts on GitHub that are caused by competing line changes, such as when people make different changes to the same line of the same file on different branches in your Git repository.</p>
 <h5>Steps to resolve</h5>
