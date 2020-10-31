@@ -20,6 +20,6 @@ The repository used for CEG 3120 Design of Info Tech Systems.
 <h2>changelog:</h2>
 <ui>
   <li>10/31/2020 9:28: Created VPC, default networking rules. </li>
-  <img src="https://github.com/NicholasChase/master/CEG3120/img/VPC creation.png">
+  <img src="https://raw.github.com/NicholasChase/master/CEG3120/img/VPC creation.PNG">
   
 </ui>
