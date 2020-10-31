@@ -21,7 +21,7 @@ The repository used for CEG 3120 Design of Info Tech Systems.
 <ui>
   <li>10/31/2020 9:28: Created VPC, default networking rules. VPC ID: vpc-066d75962e2d8ddcf</li>
   [insert VPC.PNG]
-  ![screenshot of instance](../../img/VPC.png)
+  ![screenshot of instance](https://github.com/NicholasChase/CEG3120/blob/master/img/VPC.PNG)
   <li></li>
   
 </ui>
