@@ -23,6 +23,7 @@ The repository used for CEG 3120 Design of Info Tech Systems.
   <br>
 
   <img src="https://github.com/NicholasChase/CEG3120/blob/master/img/VPC.PNG">
-  <li></li>
+ <li>10/31/2020 11:27: Edited Secuurity Group, inbound rules, services to be traffic on 10.0.0.0/16</li><br>
+ <img src="https://github.com/NicholasChase/CEG3120/blob/master/img/Security_Group1.PNG">
   
 </ui>
