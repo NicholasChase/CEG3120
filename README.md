@@ -23,11 +23,13 @@ The repository used for CEG 3120 Design of Info Tech Systems.
   <br>
 
   <img src="https://github.com/NicholasChase/CEG3120/blob/master/img/VPC.PNG"><br>
-  <li>10/16/2020 11:27: Edited Secuurity Group, inbound rules, services to be traffic on 10.0.0.0/16</li><br>
+  <li>10/16/2020 11:27: Edited Security Group, inbound rules, services to be traffic on 10.0.0.0/16</li><br>
   <img src="https://github.com/NicholasChase/CEG3120/blob/master/img/Security_Group1.PNG">
   <br>
   <li>10/26/2020 12:51: Learned we need to either use a t2.medium or AMI Ubuntu to fulfill gitlab server requirments.</li><br>
   <li>10/31/2020 1:37: Made a t2.medium instance</li>
   <img src="https://github.com/NicholasChase/CEG3120/blob/master/img/TC2_Creation.PNG"><br>
+  <li>10/31/2020 1:54: Eddited security group, added WSU VPN Address and 0.0.0.0/0</li>
+  <img src="https://github.com/NicholasChase/CEG3120/blob/master/img/Security_Group2.PNG">
   
 </ui>
