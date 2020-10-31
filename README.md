@@ -17,7 +17,7 @@ The repository used for CEG 3120 Design of Info Tech Systems.
   <li>Created the git-guide.md and added information</li>
 </ul>
 <h1>Project 2-1</h1>
-<h3>changelog:</h3>
+<h2>changelog:</h2>
 <ui>
-  <li>10/31/2020 9:28: </li>
+  <li>10/31/2020 9:28: Created VPC </li>
 </ui>
