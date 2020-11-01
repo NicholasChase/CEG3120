@@ -32,5 +32,6 @@ The repository used for CEG 3120 Design of Info Tech Systems.
   <img src="https://github.com/NicholasChase/CEG3120/blob/master/img/Security_Group3.PNG">
   <li>11/1/2020: Learned I had made a major mistake and set the private key to a non useable key that I did not have access to. had to key the original t2.medium and make a new one :(</li>
   <img src="https://github.com/NicholasChase/CEG3120/blob/master/img/Goof.PNG">
-  
+  <li>11/1/2020: Successfully SSH into my new t2.medium, udated/upgraded/ rebooted, installed git, created a new user 'git'</li>
+   <img src="https://github.com/NicholasChase/CEG3120/blob/master/img/gitUser.PNG">
 </ui>
