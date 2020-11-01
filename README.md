@@ -1,7 +1,5 @@
 # CEG3120
 The repository used for CEG 3120 Design of Info Tech Systems.
-
-
 <h1>Project 1</h1>
 <h3>changelog:</h3>
 <ul>
@@ -16,8 +14,7 @@ The repository used for CEG 3120 Design of Info Tech Systems.
   <li>Fixed issue and closed the issue</li>
   <li>Created the git-guide.md and added information</li>
 </ul>
-<h1>Project 2-1</h1>
-<h2>changelog:</h2>
+<h1>Project 2-1 changelog:</h1>
 <ui>
   <li>10/14/2020 9:28: Created VPC, default networking rules. VPC ID: vpc-066d75962e2d8ddcf</li>
   <br>
