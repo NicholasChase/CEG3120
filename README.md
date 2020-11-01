@@ -32,6 +32,6 @@ The repository used for CEG 3120 Design of Info Tech Systems.
   <li>10/31/2020 1:54: Eddited security group, added WSU VPN Address and 0.0.0.0/0</li>
   <img src="https://github.com/NicholasChase/CEG3120/blob/master/img/Security_Group2.PNG">
   <li>11/1/2020 2:07: Eddited security group, added my IP Address allowed to ssh</li>
-  <img src="https://github.com/NicholasChase/CEG3120/blob/master/img/Security_Group2.PNG">
+  <img src="https://github.com/NicholasChase/CEG3120/blob/master/img/Security_Group3.PNG">
   
 </ui>
