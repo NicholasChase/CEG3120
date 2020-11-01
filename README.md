@@ -34,4 +34,6 @@ The repository used for CEG 3120 Design of Info Tech Systems.
   <img src="https://github.com/NicholasChase/CEG3120/blob/master/img/Goof.PNG">
   <li>11/1/2020: Successfully SSH into my new t2.medium, udated/upgraded/ rebooted, installed git, created a new user 'git'</li>
    <img src="https://github.com/NicholasChase/CEG3120/blob/master/img/gitUser.PNG">
+   <li>11/1/2020: STUCK, I cannot get the git user to be able to ssh into the server</li>
+   <img src="https://github.com/NicholasChase/CEG3120/blob/master/img/stuck.PNG">
 </ui>
