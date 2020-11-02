@@ -42,6 +42,8 @@ The repository used for CEG 3120 Design of Info Tech Systems.
    <img src="https://github.com/NicholasChase/CEG3120/blob/master/img/ElasticIP.PNG">
    <li>11/2/2020: Configured the imbound rules. again...</li>
    <li>11/2/2020: switched the git server and the openldap server due to screwing up the settings with the git server </li>
+   <li>11/2/2020: created a git project and initialized the git server</li>
+    <img src="https://github.com/NicholasChase/CEG3120/blob/master/img/initial.PNG">
    
    
 </ui>
