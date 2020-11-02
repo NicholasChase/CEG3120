@@ -37,4 +37,7 @@ The repository used for CEG 3120 Design of Info Tech Systems.
    <li>11/1/2020: STUCK, I cannot get the git user to be able to ssh into the server</li>
    <img src="https://github.com/NicholasChase/CEG3120/blob/master/img/stuck.PNG">
    <li>11/2/2020: I have learned that I have made mistakes, my approach to the project is wrong and again will be going back and correcting where I have made mistakes</li>
+   <li>11/2/2020: Created another instance and renamed the instances to GITserver and OpenLDAP and created two elastic IP's, they have been assigned to the appropiate instance</li>
+   <img src="https://github.com/NicholasChase/CEG3120/blob/master/img/instances.PNG">
+   <img src="https://github.com/NicholasChase/CEG3120/blob/master/img/ElasticIP.PNG">
 </ui>
