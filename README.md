@@ -43,7 +43,7 @@ The repository used for CEG 3120 Design of Info Tech Systems.
    <li>11/2/2020: Configured the imbound rules. again...</li>
    <li>11/2/2020: switched the git server and the openldap server due to screwing up the settings with the git server </li>
    <li>11/2/2020: created a git project and initialized the git server</li>
-    <img src="https://github.com/NicholasChase/CEG3120/blob/master/img/initial.PNG">
+    <img src="https://github.com/NicholasChase/CEG3120/blob/master/img/initialGitServer.PNG">
    <li>11/2/2020: started the OpenLDAP server, sudo apt-get install slapd ldap-utils, using guide: https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-openldap-and-phpldapadmin-on-ubuntu-16-04</li>
     <img src="https://github.com/NicholasChase/CEG3120/blob/master/img/LDAP_install.PNG">
     <li>11/2/2020: Recondigured SLAPD and testing the connection of the OpenLDAP: Successs got the right output</li>
