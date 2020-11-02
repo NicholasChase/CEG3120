@@ -40,4 +40,6 @@ The repository used for CEG 3120 Design of Info Tech Systems.
    <li>11/2/2020: Created another instance and renamed the instances to GITserver and OpenLDAP and created two elastic IP's, they have been assigned to the appropiate instance</li>
    <img src="https://github.com/NicholasChase/CEG3120/blob/master/img/instances.PNG">
    <img src="https://github.com/NicholasChase/CEG3120/blob/master/img/ElasticIP.PNG">
+   <li>11/2/2020: Configured the imbound rules. again...</li>
+   
 </ui>
