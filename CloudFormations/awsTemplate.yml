@@ -8,16 +8,17 @@ Parameters:
     #Type: String
     #Default: t2.small
     #AllowedValues:
-      #- t2.small
+      #- t2.medium
   UbuntuInstanceType:
     Description: Ubuntu Server instance type
     Type: String
-    Default: t2.micro
+    Default: t2.medium
     AllowedValues:
-      - t2.micro
+      - t2.medium
   KeyName:
+      - ceg-key
     Description: Name of an existing EC2 KeyPair to enable SSH access to the instance
-    Type: 'AWS::EC2::KeyPair::KeyName'
+    Type: 'AWS::EC2::KeyPair::ceg=key'
     ConstraintDescription: must be the name of an existing EC2 KeyPair.
   SSHLocation:
     Description: ' The IP address range that can be used to access the EC2 instance'
@@ -35,7 +36,7 @@ Mappings:
       #Arch: HVM64
     #t2.small:
       #Arch: HVM64
-    t2.micro:
+    t2.medium:
       Arch: HVM64
   # All Windows info
   #AWSRegionWS19: # AMI for Win Server 2019 in each supported region 
@@ -81,7 +82,7 @@ Resources:
       Tags:
         - Key: Application
           Value: !Ref 'AWS::StackId'
-        - Key: Name
+        - Key: ceg-key
           Value: CEG 3120 VPC
   Subnet:
     Type: 'AWS::EC2::Subnet'
@@ -91,7 +92,7 @@ Resources:
       Tags:
         - Key: Application
           Value: !Ref 'AWS::StackId'
-        - Key: Name
+        - Key: ceg-key
           Value: CEG 3120 VPC
   # Have not messed with route tables / gateways before.
   # Look to see if anything unique, else move to next
@@ -166,14 +167,6 @@ Resources:
           FromPort: '1025'
           ToPort: '2048'
           CidrIp: !Ref SSHLocation
-        - IpProtocol: tcp
-          FromPort: '1025'
-          ToPort: '2048'
-          CidrIp: 130.108.0.0/16  # WSU CIDR
-        - IpProtocol: -1
-          FromPort: '-1'
-          ToPort: '-1'
-          CidrIp: 10.0.0.0/16
   # Not creating a Windows instance, but this is interesting to look through
   #   It allows remote desktop port 3389.  Needed if machine required desktop 
   #   environment for certain interactions
@@ -248,8 +241,8 @@ Resources:
       Tags:
         - Key: Application
           Value: !Ref 'AWS::StackId'
-        - Key: Name
-          Value: CEG 3400 Ubuntu 1
+        - Key: ceg-key
+          Value: CEG 3120 Ubuntu 1
       NetworkInterfaces:
         - GroupSet:
             - !Ref LinuxSecurityGroup
@@ -286,12 +279,12 @@ Resources:
           - !Ref UbuntuInstanceType
           - Arch
       InstanceType: !Ref UbuntuInstanceType
-      KeyName: !Ref KeyName
+      KeyName: !Ref ceg-key
       Tags:
         - Key: Application
           Value: !Ref 'AWS::StackId'
-        - Key: Name
-          Value: CEG 3400 Ubuntu 2
+        - Key: ceg-key
+          Value: CEG 3120 Ubuntu 2
       NetworkInterfaces:
         - GroupSet:
             - !Ref LinuxSecurityGroup
@@ -299,7 +292,7 @@ Resources:
           DeviceIndex: '0'
           DeleteOnTermination: 'true'
           SubnetId: !Ref Subnet
-          PrivateIpAddress: 10.0.0.25
+          PrivateIpAddress: 172.31.73.59
       UserData:
         Fn::Base64:
           !Sub |
