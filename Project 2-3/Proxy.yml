@@ -156,11 +156,7 @@ Resources:
           FromPort: '22'
           ToPort: '22'
           # TODO: only leave ones we need.  What submet is this?
-          CidrIp: 130.108.0.0/16  # WSU CIDR
-        - IpProtocol: tcp
-          FromPort: '1025'
-          ToPort: '2048'
-          CidrIp: !Ref SSHLocation
+
 
   Ubuntu1Instance:
     Type: 'AWS::EC2::Instance'
