@@ -3,4 +3,4 @@
 <li>Worked on setting up the cloud formations file proxy.yml  </li>
 <li>installing apache</li>
 <li>creating the index pages</li>
-<li>I'm having issues setting up the cloud formations got stuck and couldn't continue</li>
+<li>I'm having issues setting up the cloud formations and couldn't continue :(</li>
