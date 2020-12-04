@@ -239,6 +239,7 @@ Resources:
               python \
               nmap \
               vim \
+              ssh-rsa pAIBAAKCAQEAlePfLB36hKQTkpaDSovdzPuh+tqQfHegGJI/Eh2VIyHJ9DgQULvMAhLBKwQFe5xdhV98FQ0vyZdDrJdRsraM9tT6OvYYqmCcl9CMZWelt6GpzlmQkdCoglKhD5EbTo+SfwdWmTlDJ+kIOmemqQ4jUlSACanl11MALcgkfkjaurgU0fuvuY7WePLhqUWEx6760nF6ZDG
               git \
               wget \
               python3-dev && \
