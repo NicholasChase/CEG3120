@@ -1,1 +1,10 @@
-THIS IS A LOG
+<h1>Project 2-3</h1>
+
+<li>Created the proxy </li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
