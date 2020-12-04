@@ -242,4 +242,5 @@ Resources:
               git \
               wget \
               python3-dev && \
+              .ssh/config \
             reboot
